@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.leticija.bugy">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+
+
+    <uses-feature
+        android:name="android.hardware.camera.any"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+
+        android:networkSecurityConfig="@xml/network_security_config"
+
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".auth.LogInActivity"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".auth.RegisterActivity"
+            android:windowSoftInputMode="adjustPan"/>
+
+        <activity android:name=".activities.HomeActivity"/>
+
+        <activity android:name=".activities.AddBugsActivity"/>
+
+        <activity android:name=".activities.AddBySearch"
+            android:windowSoftInputMode="adjustPan"/>
+
+        <activity android:name=".activities.CustomAddActivity"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity android:name=".activities.CollectionActivity"/>
+
+        <activity android:name=".activities.InfoActivity"/>
+
+        <activity android:name=".activities.HelpActivity"/>
+
+        <activity android:name=".activities.SettingsActivity"/>
+
+
+        <activity android:name=".activities.BugInfoActivity"/>
+
+        <activity android:name=".activities.GalleryActivity"/>
+
+        <activity android:name=".activities.EditorActivity"
+            android:windowSoftInputMode="adjustPan"/>
+
+        <activity android:name=".activities.ImagePickActivity"/>
+
+        <activity android:name=".activities.ExternalLinksActivity"/>
+
+        <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat"/> <!-- optional (needed if default theme has no action bar) -->
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.leticija.bugy.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths">
+            </meta-data>
+        </provider>
+    </application>
+
+
+</manifest>

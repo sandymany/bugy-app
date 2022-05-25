@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item_add_remove_insect"
+        android:title="@string/add_to_collection"
+        app:showAsAction="never"
+        android:icon="@drawable/add">
+
+    </item>
+
+    <item
+        android:id="@+id/item_edit_insect"
+        android:title="@string/edit_insect"
+        app:showAsAction="never"
+        android:icon="@drawable/edit">
+    </item>
+
+    <item
+        android:id="@+id/item_view_info_links"
+        android:title="@string/see_external_links"
+        app:showAsAction="never"
+        android:icon="@drawable/edit"
+        >
+    </item>
+
+
+
+</menu>

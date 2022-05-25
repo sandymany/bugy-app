@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5dc797</color>
+    <color name="colorToolbar">#6db091</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="warning">#b32b2b</color>
+    <color name="success">#0fbf41</color>
+    <color name="button_green">#b9f0da</color>
+    <color name="dark_green_text">#3b5246</color>
+    <color name="black">#000000</color>
+    <color name="hint_text">#3b5246</color>>
+    <color name="gray">#8f8f8f</color>
+    <color name="white">#ffffff</color>
+    <color name="green">#5dd970</color>
+    <color name="background">#addbc6</color>
+    <color name="background_green">#43b074</color>
+    <color name="dark_gray">#61696b</color>
+    <color name="partiallyTransparentGreen">#5943b074</color>
+</resources>

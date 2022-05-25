@@ -1,0 +1,151 @@
+<resources>
+
+    <string name="login_title">LogIn</string>
+    <string name="register_title">Registration</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="email_hint">E-mail</string>
+    <string name="message_fill_everything">FILL EVERYTHING, PLEASE!</string>
+    <string name="message_pass_dont_match">PASSWORDS DON\'T MATCH.\nTRY ONCE AGAIN.</string>
+    <string name="submit_button">SUBMIT</string>
+    <string name="create_account_button">CREATE ACCOUNT</string>
+    <string name="message_login_successfull">LOGIN SUCCESSFULL</string>
+    <string name="message_wrong_credentials">WRONG CREDENTIALS</string>
+    <string name="message_connection_error">CONNECTION ERROR</string>
+    <string name="message_max_length_of_credentials">MAXIMUM LENGHT OF CREDENTIALS IS 15</string>
+    <string name="message_user_exists">USER ALREADY EXISTS !</string>
+    <string name="message_registration_successfull">REGISTRATION SUCCESSFUL !</string>
+    <string name="button_my_collection">MY COLLECTION</string>
+    <string name="collection_number_of_species">Number of species: </string>
+    <string name="button_add_insects">ADD INSECTS</string>
+    <string name="button_settings">SETTINGS</string>
+    <string name="button_info">INFO</string>
+    <string name="button_help">HELP</string>
+    <string name="button_add_by_search">SEARCH</string>
+    <string name="button_custom_add">ADD NEW</string>
+    <string name="number_of_results">Number of results: </string>
+    <string name="hint_search">Search&#8230;</string>
+    <string name="no_results">No insects that match your search.</string>
+    <string name="toast_removing_from_collection">Removing insect from your collection&#8230;</string>
+    <string name="toast_adding_to_collection">Adding insect to your collection.</string>
+    <string name="toast_editing_insect">EDITING INSECT</string>
+    <string name="subtitle_classification">CLASSIFICATION</string>
+    <string name="subtitle_public_description">PUBLIC DESCRIPTION</string>
+    <string name="subtitle_notes">NOTES</string>
+    <string name="button_upload_changes">UPLOAD CHANGES</string>
+    <string name="message_uploading_changes">Uploading changes&#8230;</string>
+    <string name="toast_upload_successfull">UPLOAD SUCCESSFULL</string>
+    <string name="toast_no_images">No images for this specie yet!</string>
+    <string name="hint_enter_group">Enter group</string>
+    <string name="application_info">APP INFO</string>
+    <string name="message_nothing_changed">Nothing changed.</string>
+    <string name="button_choose_image">CHOOSE IMAGE</string>
+    <string name="button_remove_image">REMOVE IMAGE</string>
+    <string name="button_apply_image_add">APPLY</string>
+    <string name="logged_out_from_all">Logged out from all devices.</string>
+
+    <string name="subtitle_acc_settings">Account settings</string>
+    <string name="settings_title">SETTINGS</string>
+    <string name="subtitle_security_settings">Security</string>
+    <string name="log_out_from_all">Log out from all devices.</string>
+    <string name="subtitle_application">Application</string>
+    <string name="enable_language">Enable language adaptation</string>
+    <string name="subtitle_notifications">Notifications</string>
+    <string name="notify_by_email">Notify me by email</string>
+    <string name="subtitle_remove_acc">Remove account</string>
+    <string name="dell_acc">Delete my account</string>
+    <string name="button_delete">DELETE</string>
+    <string name="button_submit_changes">SUBMIT CHANGES</string>
+
+    <string name="information">Welcome to Bugy!
+        \n
+        \nThis app is designed for entomologists and all insect lovers. Here you can learn much about bugs around you.
+        \nBugy allows you to edit all the information from the base it is connected to, so please take that tool seriously and do not add any ill-suited text.
+        \nAll species are from this page: https://bugguide.net/node/view/15740
+        \n
+        \nWith this app you can:
+        \n    • Search the base with about 11 230 species
+        \n    • Read information about insects
+        \n    • Add an insect to your personal collection
+        \n    • Edit all the information and add your notes
+        \n    • Add photos, view gallery
+        \n    • Add an insect that doesn\'t yet exist!
+        \n    • View your collection
+        \n    • Customize your app settings
+        \n
+        \nBugy v1.0
+        \nDeveloped by L.C.
+        \n© 2020
+        </string>
+    <string name="help_title">HELP</string>
+    <string name="help_text">Need help?
+        \nHere are some useful tips:
+        \n    • When you log in, choose activity you want.
+        \n    • In settings you can change app settings.
+        \n    • Click three dots in the top right corner to get more options.
+        \n    • When you add insect to collection, you can add notes.
+        \n    • Delete insect from collection as you added it.
+        \n
+        \nFor any more information or complications that can occur while using app, please let us know by email: bugy.suport@gmail.com
+    </string>
+
+    //inflating text
+    <string name="insect_reference">Insect reference: </string>
+    <string name="image_url">. image url: </string>
+    <string name="author">author: </string>
+
+    //menus
+    <string name="menu_view_settings">View settings</string>
+    <string name="menu_logOut">Log out</string>
+    <string name="remove_from_collection">Remove from collection</string>
+    <string name="add_to_collection">Add to collection</string>
+    <string name="edit_insect">Edit insect</string>
+    <string name="see_external_links">See external links</string>
+
+    //dialog texts
+    <string name="dialog_session_expired_title">Session Timeout</string>
+    <string name="dialog_session_expired">Unfortunately, your session expired.\nYou should just log in again.</string>
+    <string name="runnable_exit_app">Exit app</string>
+    <string name="runnable_login">Go to login</string>
+    <string name="dialog_delete_account">"Are you sure you want to delete your account.\nYour whole collection will be lost.</string>
+    <string name="runnable_yes">Yes</string>
+    <string name="runnable_no">No</string>
+    <string name="dialog_insect_exists_title">Oops!</string>
+    <string name="dialog_insect_exists">Insect already exists in base.\nTry to search it.</string>
+    <string name="runnable_cancel">Cancel</string>
+    <string name="runnable_go_to_search">Go to search</string>
+    <string name="dialog_add_to_collection">Do you want to add this insect\nto your collection?</string>
+    <string name="dialog_server_error_title">Error</string>
+    <string name="dialog_server_error">Unfortunately, there was a server error.\nWe suggest you to log in again."</string>
+    <string name="dialog_credentials_updated">Credentials updated successfully.\nNow you should log in with new username and password.</string>
+    <string name="dialog_credentials_change">Are you sure you want to change credentials?</string>
+
+    <string name="app_name" translatable="false">Bugy</string>
+
+    <string name="base_ip" translatable="false">https://5.9.104.219:5203</string>
+
+    <string name="cert" translatable="false">
+        -----BEGIN CERTIFICATE-----
+        MIIDhjCCAm4CCQCiG8gYzI642DANBgkqhkiG9w0BAQsFADCBhDELMAkGA1UEBhMC
+        SFIxDzANBgNVBAgMBlphZ3JlYjEPMA0GA1UEBwwGWmFncmViMQ0wCwYDVQQKDARC
+        dWd5MQswCQYDVQQLDAJJVDERMA8GA1UEAwwIYnVneWNlcnQxJDAiBgkqhkiG9w0B
+        CQEWFWJ1Z3lwb2Ryc2thQGdtYWlsLmNvbTAeFw0xOTEwMTkxMTEwNDBaFw0xOTEx
+        MTgxMTEwNDBaMIGEMQswCQYDVQQGEwJIUjEPMA0GA1UECAwGWmFncmViMQ8wDQYD
+        VQQHDAZaYWdyZWIxDTALBgNVBAoMBEJ1Z3kxCzAJBgNVBAsMAklUMREwDwYDVQQD
+        DAhidWd5Y2VydDEkMCIGCSqGSIb3DQEJARYVYnVneXBvZHJza2FAZ21haWwuY29t
+        MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwE1tUZq26qr0aiSj7E/t
+        St3wJzbNIgGwYZqCpeSEvIzDQaU2+Cgx9/w1srh8P/lzZ6cIUinE1fIikeDwVy7K
+        VEdJIOmRzbEy2RClr6lCHTO5IfhNcKtWmAdGiXZh/ObFnCkquLx11hoSk93aHbKa
+        zqOww7+WTEX9pJ2puC0xbIj/+mX6YZ8wWigmLA+liNIWoa6T4qSmiG00K1yoRX+X
+        hvQt7/0a5jpJqkXwcwsMksR8wxbO3dsj0p2LnSs487OQa1MBYZPt853moG7HGvGt
+        0RO1r1raAaTISWpDNG5dKUFmI9vmatPFwYXUc6Fdijc+xH9ek/lO2XynJvJb3yzr
+        7wIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQCmuYW0eHJ7o3iwedFoJtNF/v7MjbYw
+        bc8F2+uiylK2a/54nAyQfQdOjT5nOyN9vY/tJE633gFhNS+YlTtKYsvv9gaof+2L
+        YLX+QRjVmnmyGiy4aitWUIwL2s6ju+QWIbiJkZNHyupeH0qsnJe/VbZ56elIF8ru
+        UX/a5Wz4ffwmLCexDRGLUN/LEb57pxQkw4zL179o7tR3OoFmczjhpymh8UbWYtsB
+        kuwN+2b+Dhuqp0h/iDXYyPiG/B/JmSEBTGyWG7JRFM0thww4afobQqtkHxX7eEY+
+        403t5/6EwPwCgafNtAWxNVmL7JA8kGHTdG60KKd2jf34TJI4TWYQIlBR
+        -----END CERTIFICATE-----
+    </string>
+
+</resources>

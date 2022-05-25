@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_title">LogIn</string>
+    <string name="register_title">Registrieren</string>
+    <string name="username_hint">Benutzername</string>
+    <string name="password_hint">Passwort</string>
+    <string name="email_hint">E-mail</string>
+    <string name="message_fill_everything">Bitte alles ausfüllen!</string>
+    <string name="message_pass_dont_match">Passwörter stimmen nicht überein.\nVersuche es noch einmal.</string>
+    <string name="submit_button">Anmelden</string>
+    <string name="create_account_button">Konto erstellen</string>
+    <string name="message_login_successfull">Anmeldung erfolgreich</string>
+    <string name="message_wrong_credentials">Falsche Anmeldedaten</string>
+    <string name="message_connection_error">Verbindungsfehler</string>
+    <string name="message_max_length_of_credentials">Die Maximale Länge der Benutzerdaten ist 15</string>
+    <string name="message_user_exists">Benutzer existiert bereits!</string>
+    <string name="message_registration_successfull">Registrierung erfolgreich!</string>
+    <string name="button_my_collection">Meine Samlung</string>
+    <string name="collection_number_of_species">Anzahl der Insektenarten: </string>
+    <string name="button_add_insects">Insekt zufügen</string>
+    <string name="button_settings">Einstellugen</string>
+    <string name="button_info">INFO</string>
+    <string name="button_help">HILFE</string>
+    <string name="button_add_by_search">Nach Suchergebnis hinzufügen</string>
+    <string name="button_custom_add">Neues Insekt eintragen</string>
+    <string name="number_of_results">Anzahl der Resultate: </string>
+    <string name="hint_search">Suchen&#8230;</string>
+    <string name="no_results">Keine Insekten gefunden.</string>
+    <string name="toast_removing_from_collection">Insekt von Samlung entfernen&#8230;</string>
+    <string name="toast_adding_to_collection">Insekt zur Samlung hinzufügen.</string>
+    <string name="toast_editing_insect">Bearbeiten</string>
+    <string name="subtitle_classification">Klassifikation</string>
+    <string name="subtitle_public_description">Öffentliche Beschreibung</string>
+    <string name="subtitle_notes">Meine Notizen</string>
+    <string name="button_upload_changes">Änderungen speichern</string>
+    <string name="message_uploading_changes">Änderungen werden gespeichert&#8230;</string>
+    <string name="toast_upload_successfull">ÄNDERUNGEN GESPEICHERT</string>
+    <string name="toast_no_images">Noch keine Bilder für diese Insektenart!</string>
+    <string name="hint_enter_group">Gruppe eingeben</string>
+    <string name="application_info">APP INFO</string>
+    <string name="button_choose_image">BILD AUSWÄHLEN</string>
+    <string name="button_remove_image">ENTFERNE BILD</string>
+    <string name="button_apply_image_add">ANWENDEN</string>
+    <string name="logged_out_from_all">Von allen Geräten abgemeldet.</string>
+
+
+    <string name="message_nothing_changed">Nichts hat sich verändert.</string>
+    <string name="settings_title">DIE EINSTELLUNGEN</string>
+    <string name="subtitle_acc_settings">Account Einstellungen</string>
+    <string name="subtitle_security_settings">Sicherheit</string>
+    <string name="log_out_from_all">Melden Sie sich von allen Geräten ab.</string>
+    <string name="subtitle_application">Anwendung</string>
+    <string name="enable_language">Sprachanpassung aktivieren</string>
+    <string name="subtitle_notifications">Benachrichtigungen</string>
+    <string name="notify_by_email">Benachrichtigen Sie mich per E-Mail</string>
+    <string name="subtitle_remove_acc">Konto entfernen</string>
+    <string name="dell_acc">Lösche meinen Account</string>
+    <string name="button_delete">LÖSCHEN</string>
+    <string name="button_submit_changes">ÄNDERUNGEN EINREICHEN</string>
+
+
+    <string name="information">Willkommen bei Bugy!
+        \n
+        \nDiese App ist für alle Entomologen und Insektenliebhaber entoworfen. Hier kannst Du vieles über Insekten lernen.
+        \nBugy erlaubt die alle Informationen in der Datenbank zu bearbeiten, darum bitten wir dich diese App ernst zu nehmen und keinen schlecht geeigneten Text zu schreiben.
+        \nAlle Insektenarten stammen von dieser Seite: https://bugguide.net/node/view/15740
+        \n
+        \nMit dieser App kannst Du:
+        \n    • Die Datenbank mit über 11 230 Arten durchsuchen
+        \n    • Informationen über Insekten lesen
+        \n    • Ein Insekt zu deiner Samlung hinzufügen
+        \n    • Alle Informationen bearbeiten und deine eigenen Notizen hinzufügen
+        \n    • Bilder uploaden, Bildergallerie anschauen
+        \n    • Ein neues Insekt in die Datenbank eintragen
+        \n    • Deine Samlung anschauen
+        \n    • Einstellungen ändern
+        \n
+        \nBugy v1.0
+        \nEntwickelt von L.C.
+        \n© 2020
+        </string>
+    <string name="help_title">HILFE</string>
+    <string name="help_text">Brauchst Du Hilfe?
+        \nHier sind ein paar nützliche Tipps:
+        \n    • Wenn Du dich einloggst, wähle die entsprechende Aktivität.
+        \n    • Unter Einstellungen kannst Du dir die App anpassen.
+        \n    • Für mehr Optionen, clicke auf die drei Punkte oben rechts.
+        \n    • Wenn Du ein neues Insekt zur Samlung hinzufügst, kannst Du deine eigenen Notizen schreiben und die siehst nur Du.
+        \n    • Du kannst Insekten von der Samlung entfernen.
+        \n
+        \nFür weitere Informationen oder bei Komplikationen, bitte sende uns eine email: bugy.suport@gmail.com
+    </string>
+
+    //inflating text
+    <string name="insect_reference">Insektenreferenz: </string>
+    <string name="image_url">. Bild url: </string>
+    <string name="author">Author: </string>
+
+    //menus
+    <string name="menu_view_settings">Einstellungen</string>
+    <string name="menu_logOut">Abmelden</string>
+    <string name="remove_from_collection">Von Samlung entfernen</string>
+    <string name="add_to_collection">Zur Samlung hinzufügen</string>
+    <string name="edit_insect">Insekt bearbeiten</string>
+    <string name="see_external_links">Externe Links anschauen</string>
+
+    //dialog texts
+    <string name="dialog_session_expired_title">Sitzungs Time-out</string>
+    <string name="dialog_session_expired">Sitzung leider abgelaufen.\nBitte anmelden.</string>
+    <string name="runnable_exit_app">App beenden</string>
+    <string name="runnable_login">Zum LogIn gehen</string>
+    <string name="dialog_delete_account">"Bist Du sicher, dass Du dein Konto löschen möchtest?\nDeine Samlung geht dabei verloren.</string>
+    <string name="runnable_yes">Ja</string>
+    <string name="runnable_no">Nein</string>
+    <string name="dialog_insect_exists_title">Oops!</string>
+    <string name="dialog_insect_exists">Insekt existiert bereits in der Datenbank.\nVersuche nach ihm zu suchen.</string>
+    <string name="runnable_cancel">Abbrechen</string>
+    <string name="runnable_go_to_search">Zur Suche gehen</string>
+    <string name="dialog_add_to_collection">Willst Du dieses Insekt zu deiner\nSamlung hinzufügen?</string>
+    <string name="dialog_server_error_title">Fehler</string>
+    <string name="dialog_server_error">Es gab leider einen Serverfehler.\nBitte melde dich wieder an."></string>
+    <string name="dialog_credentials_updated">Benutzerdaten erfolgreich aktualisiert.\Melde dich mit den neuen Daten an.</string>
+    <string name="dialog_credentials_change">Bist Du sicher, dass du deine Benutzerdaten ändern willst?</string>
+
+
+</resources>

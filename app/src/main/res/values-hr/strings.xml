@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="login_title">Prijava</string>
+    <string name="register_title">Registracija</string>
+    <string name="username_hint">Korisničko ime</string>
+    <string name="password_hint">Lozinka</string>
+    <string name="email_hint">E-mail</string>
+    <string name="message_fill_everything">MOLIMO POPUNITE SVE!</string>
+    <string name="message_pass_dont_match">LOZINKE SE NE PODUDARAJU\nPOKUŠAJTE PONOVNO.</string>
+    <string name="submit_button">POTVRDI</string>
+    <string name="create_account_button">STVORI RAČUN</string>
+    <string name="message_login_successfull">PRIJAVA USPJEŠNA</string>
+    <string name="message_wrong_credentials">POGREŠNE KORISNIČKE OZNAKE</string>
+    <string name="message_connection_error">GREŠKA U KONEKCIJI</string>
+    <string name="message_max_length_of_credentials">MAKSIMALNA DULJINA IMENA JE 15!</string>
+    <string name="message_user_exists">KORISNIK VEĆ POSTOJI!</string>
+    <string name="message_registration_successfull">REGISTRACIJA USPJEŠNA!</string>
+    <string name="button_my_collection">MOJA KOLEKCIJA</string>
+    <string name="collection_number_of_species">Broj vrsta: </string>
+    <string name="button_add_insects">DODAJ INSEKTE</string>
+    <string name="button_settings">POSTAVKE</string>
+    <string name="button_info">INFORMACIJE</string>
+    <string name="button_help">POMOĆ</string>
+    <string name="button_add_by_search">PRETRAGA</string>
+    <string name="button_custom_add">NOVA JEDINKA</string>
+    <string name="number_of_results">Broj rezultata: </string>
+    <string name="hint_search">Traži&#8230;</string>
+    <string name="no_results">Ne postoji kukac koji zadovoljava pretragu.</string>
+    <string name="toast_removing_from_collection">Brisanje insekta iz kolekcije&#8230;</string>
+    <string name="toast_adding_to_collection">Dodavanje insekta u kolekciju&#8230;</string>
+    <string name="toast_editing_insect">UREĐIVANJE INSEKTA</string>
+    <string name="subtitle_classification">KLASIFIKACIJA</string>
+    <string name="subtitle_public_description">OPIS</string>
+    <string name="subtitle_notes">OSOBNI ZAPISI</string>
+    <string name="button_upload_changes">SPREMANJE PROMJENA</string>
+    <string name="message_uploading_changes">Pohranjivanje promjena&#8230;</string>
+    <string name="toast_upload_successfull">POHRANA USPJEŠNA</string>
+    <string name="toast_no_images">Nema slika za ovu jedinku!</string>
+    <string name="hint_enter_group">Unos grupe</string>
+    <string name="application_info">INFORMACIJE</string>
+    <string name="message_nothing_changed">Nema promjena.</string>
+    <string name="button_choose_image">ODABERI SLIKU</string>
+    <string name="button_remove_image">MAKNI SLIKU</string>
+    <string name="button_apply_image_add">OK</string>
+    <string name="logged_out_from_all">Odjavljeno sa svih uređaja.</string>
+
+
+    <string name="subtitle_acc_settings">Korisničke postavke</string>
+    <string name="settings_title">POSTAVKE</string>
+    <string name="subtitle_security_settings">Sigurnost</string>
+    <string name="log_out_from_all">Odjava sa svih uređaja.</string>
+    <string name="subtitle_application">Aplikacija</string>
+    <string name="enable_language">Omogući prilagodbu jezika.</string>
+    <string name="subtitle_notifications">Obavijesti</string>
+    <string name="notify_by_email">Obavijesti putem e-maila.</string>
+    <string name="subtitle_remove_acc">Brisanje računa</string>
+    <string name="dell_acc">Obriši moj račun</string>
+    <string name="button_delete">OBRIŠI</string>
+    <string name="button_submit_changes">SPREMI PROMJENE</string>
+
+    <string name="information">Dobrodošli u Bugy!
+        \n
+        \nOva aplikacija dizajnirana je za entomologe i sve ljubitelje insekata. Ovdje možete mnogo naučiti o insektima u vašoj okolini.
+        \nBugy vam omogućava uređivanje svih informacija koji su u bazi s kojom je povezan; zato Vas molimo da ne dodajete neprikladan tekst ili bilo kakve lažne informacije jer su one vidljive svi korisnicima.
+        \nSve vrste preuzete su sa sljedeće web stranice: https://bugguide.net
+        \n
+        \nFunkcionalnosti aplikacije:
+        \n    • Pretraga baze koja trenutno ima 11 230 jedinki
+        \n    • Pregled informacija o insektima
+        \n    • Dodavanje insekta u osobnu kolekciju
+        \n    • Uređivanje svih informacija i dodavanje osobnih zapisa
+        \n    • Dodavanje fotografija, pregled galerije
+        \n    • Dodavanje insekta u bazu koji još ne postoji
+        \n    • Pregled kolekcije
+        \n    • Prilagođavanje postavki
+        \n
+        \nBugy v1.0
+        \nDeveloped by L.C.
+        \n© 2020
+        </string>
+    <string name="help_title">POMOĆ</string>
+    <string name="help_text">Trebate pomoć?
+        \nSljede neki korisni napuci:
+        \n    • Kada se logirate izaberite aktivnost
+        \n    • U postavkama možete promijeniti aplikacijske postavke
+        \n    • U gornjem desnom kutu nalaze se tri točkice za više opcija
+        \n    • Kada dodate insekta u kolekciju, omogućit će se dodavanje zapisa
+        \n    • Brisanje insekta se izvršava na isti način kao i dodavanje
+        \n
+        \nZa više informacija ili prijave mogućih poteškoća molimo javite na e-mail: bugy.suport@gmail.com
+    </string>
+
+    //inflating text
+    <string name="insect_reference">Link insekta: </string>
+    <string name="image_url">. url slike: </string>
+    <string name="author">autor: </string>
+
+    //menus
+    <string name="menu_view_settings">Pregled postavka</string>
+    <string name="menu_logOut">Odjava</string>
+    <string name="remove_from_collection">Brisanje iz kolekcije</string>
+    <string name="add_to_collection">Dodaj u kolekciju</string>
+    <string name="edit_insect">Uređivanje insekta</string>
+    <string name="see_external_links">Pregled poveznica</string>
+
+    //dialog texts
+    <string name="dialog_session_expired_title">Sesija istekla</string>
+    <string name="dialog_session_expired">Nažalost vaša sesija je istekla.\nUlogirajte se ponovno.</string>
+    <string name="runnable_exit_app">Izlaz</string>
+    <string name="runnable_login">Prijava</string>
+    <string name="dialog_delete_account">Jeste li sigurni da želite obrisati račun.\nYour whole collection will be lost.</string>
+    <string name="runnable_yes">Da</string>
+    <string name="runnable_no">Ne</string>
+    <string name="dialog_insect_exists_title">Oops!</string>
+    <string name="dialog_insect_exists">Insekt već postoji u bazi.\nPretražite bazu.</string>
+    <string name="runnable_cancel">Otkaži</string>
+    <string name="runnable_go_to_search">Pretraga</string>
+    <string name="dialog_add_to_collection">Želite li dodati ovog insekta\nu kolekciju?</string>
+    <string name="dialog_server_error_title">Greška</string>
+    <string name="dialog_server_error">Nažalost, došlo je do greške na serveru.\nPrijavite se ponovno."</string>
+    <string name="dialog_credentials_updated">Podaci uspješno spremljeni.\nSada se ponovno prijavite.</string>
+    <string name="dialog_credentials_change">Jeste li sigurni da želite promijeniti podatke?</string>
+
+</resources>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_title">ログインする</string>
+    <string name="register_title">登録</string>
+    <string name="username_hint">ユーザー名</string>
+    <string name="password_hint">パスワード</string>
+    <string name="email_hint">Eメール</string>
+    <string name="message_fill_everything">すべて記入してください！</string>
+    <string name="message_pass_dont_match">パスワードが一致しません。\nもう一度やり直してください。</string>
+    <string name="submit_button">参加する</string>
+    <string name="create_account_button">アカウントを作成する</string>
+    <string name="message_login_successfull">ログイン成功</string>
+    <string name="message_wrong_credentials">間違った資格</string>
+    <string name="message_connection_error">接続エラー</string>
+    <string name="message_max_length_of_credentials">クレデンシャルの最大長は15です</string>
+    <string name="message_user_exists">このユーザーは既に存在します ！</string>
+    <string name="message_registration_successfull">登録に成功 ！</string>
+    <string name="button_my_collection">私のコレクション</string>
+    <string name="collection_number_of_species">種の数: </string>
+    <string name="button_add_insects">虫を追加</string>
+    <string name="button_settings">設定</string>
+    <string name="button_info">情報</string>
+    <string name="button_help">助けて</string>
+    <string name="button_add_by_search">検索で追加</string>
+    <string name="button_custom_add">カスタム追加</string>
+    <string name="number_of_results">結果の数:  </string>
+    <string name="hint_search">探す&#8230;</string>
+    <string name="no_results">検索に一致する昆虫はありません。</string>
+    <string name="toast_removing_from_collection">コレクションから昆虫を取り除く&#8230;</string>
+    <string name="toast_adding_to_collection">コレクションに昆虫を追加します。</string>
+    <string name="toast_editing_insect">昆虫の編集</string>
+    <string name="subtitle_classification">分類</string>
+    <string name="subtitle_public_description">パブリックな説明</string>
+    <string name="subtitle_notes">ノート</string>
+    <string name="button_upload_changes">変更をアップロード</string>
+    <string name="message_uploading_changes">変更をアップロードする&#8230;</string>
+    <string name="toast_upload_successfull">アップロードに成功しました</string>
+    <string name="toast_no_images">この種の画像はまだありません！</string>
+    <string name="hint_enter_group">グループに入る</string>
+    <string name="application_info">アプリ情報</string>
+    <string name="message_nothing_changed">何も変わっていません。</string>
+    <string name="button_choose_image">画像を選択</string>
+    <string name="button_remove_image">画像を削除する</string>
+    <string name="button_apply_image_add">OK</string>
+    <string name="logged_out_from_all">すべてのデバイスからログアウトしました。</string>
+
+
+
+    <string name="settings_title">設定</string>
+    <string name="subtitle_acc_settings">アカウント設定</string>
+    <string name="subtitle_security_settings">セキュリティ</string>
+    <string name="log_out_from_all">すべてのデバイスからログアウトします。</string>
+    <string name="subtitle_application">Application</string>
+    <string name="enable_language">Enable language adaptation</string>
+    <string name="subtitle_notifications">Notifications</string>
+    <string name="notify_by_email">Notify me by email</string>
+    <string name="subtitle_remove_acc">Remove account</string>
+    <string name="dell_acc">Delete my account</string>
+    <string name="button_delete">DELETE</string>
+    <string name="button_submit_changes">SUBMIT CHANGES</string>
+
+
+    <string name="information">Bugy へようこそ！
+    \n
+    \nBugyは昆虫研究者と愛好家のためのアプリです。このアプリを通じてあなたの周りの虫について学ぶことができます。
+    \nBugyはすべての情報を編集できるように作られています。ご利用の際は慎重に、不適切なテキストをアップしないようにしてください。
+    \n全昆虫種はこちらから参照できます。： \nhttps://bugguide.net
+        \n
+        \nこのアプリでできること：
+        \n・11230種の昆虫のデータベースの検索
+        \n・昆虫についての情報の閲覧
+        \n・自分の個人コレクションへの昆虫の追加
+        \n・すべての情報と自分のノートの編集
+        \n・写真の追加、ギャラリーの閲覧
+        \n・新種の追加！
+        \n・自分のコレクションの閲覧
+        \n・アプリケーションセッティングのカスタマイズ
+        \n
+        \nBugy v1.0
+        \nDeveloped by L.C.
+        \n© 2020
+        </string>
+    <string name="help_title">助けて</string>
+    <string name="help_text">助けが必要？
+        \nヒントを次に示します:
+        \n    • ログインしたら、必要なアクティビティを選択します。
+        \n    • 設定では、アプリの設定を変更できます。
+        \n    • 右上隅の3つのドットをクリックして、その他のオプションを取得します。
+        \n    • コレクションに昆虫を追加すると、メモを追加できます。
+        \n    • 追加した昆虫をコレクションから削除します。
+        \n
+        \nアプリの使用中に発生する可能性のあるその他の情報や合併症については、電子メールでお知らせください：bugy.suport@gmail.com
+    </string>
+
+    //inflating text
+    <string name="insect_reference">昆虫リファレンス： </string>
+    <string name="image_url">.画像のURL：</string>
+    <string name="author">著者: </string>
+
+    //menus
+    <string name="menu_view_settings">設定を表示</string>
+    <string name="menu_logOut">ログアウト</string>
+    <string name="remove_from_collection">コレクションから削除</string>
+    <string name="add_to_collection">コレクションに追加</string>
+    <string name="edit_insect">昆虫を編集</string>
+    <string name="see_external_links">外部リンクを見る</string>
+
+    //dialog texts
+    <string name="dialog_session_expired_title">セッションタイムアウト</string>
+    <string name="dialog_session_expired">残念ながら、セッションは期限切れになりました.\nもう一度ログインする必要があります。</string>
+    <string name="runnable_exit_app">アプリを終了</string>
+    <string name="runnable_login">ログインしてください</string>
+    <string name="dialog_delete_account">アカウントを削除してもよろしいですか？\nコレクション全体が失われます。</string>
+    <string name="runnable_yes">はい</string>
+    <string name="runnable_no">いや</string>
+    <string name="dialog_insect_exists_title">おっとっと!</string>
+    <string name="dialog_insect_exists">昆虫はすでにベースに存在しています.\nそれを検索してみてください。</string>
+    <string name="runnable_cancel">キャンセル</string>
+    <string name="runnable_go_to_search">検索に行く</string>
+    <string name="dialog_add_to_collection">この虫を追加しますか\nあなたのコレクションに？</string>
+    <string name="dialog_server_error_title">エラー</string>
+    <string name="dialog_server_error">残念ながら、サーバーエラーが発生しました。\n再度ログインすることをお勧めします。</string>
+    <string name="dialog_credentials_updated">資格情報が正常に更新されました.\nここで、新しいユーザー名とパスワードでログインする必要があります。</string>
+    <string name="dialog_credentials_change">資格情報を変更してもよろしいですか？</string>
+
+
+</resources>

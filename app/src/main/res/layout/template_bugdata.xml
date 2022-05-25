@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/template_expandView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="top">
+
+    <TextView
+        android:id="@+id/bugData_subtitle"
+        android:textColor="@color/dark_green_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="18sp"
+        android:layout_marginStart="8dp" />
+
+    <ImageView
+        android:id="@+id/bugData_optional_image"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="left"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/layout_contentText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bugData_subtitle"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp">
+
+        <TextView
+            android:id="@+id/content_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:linksClickable="true"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider_contents"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="4dp"
+        android:layout_below="@id/layout_contentText"
+        android:background="@color/dark_green_text"/>
+
+</LinearLayout>
